@@ -1,0 +1,209 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.entrega_int2"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-feature
+11-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:5:5-7:36
+12        android:name="android.hardware.camera"
+12-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:6:9-47
+13        android:required="false" />
+13-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:7:9-33
+14
+15    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+15-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:9:5-71
+15-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:9:22-68
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:10:5-65
+16-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:10:22-62
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:11:5-81
+17-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:11:22-78
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:12:5-80
+18-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:12:22-77
+19
+20    <!-- Include required permissions for Google Maps API to run. -->
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\federico\.gradle\caches\transforms-3\333e425c0a3bf8ae6a06fa7ee9bcf42d\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
+21-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\federico\.gradle\caches\transforms-3\333e425c0a3bf8ae6a06fa7ee9bcf42d\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:22-76
+22    <uses-permission android:name="android.permission.INTERNET" />
+22-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\federico\.gradle\caches\transforms-3\333e425c0a3bf8ae6a06fa7ee9bcf42d\transformed\play-services-maps-18.1.0\AndroidManifest.xml:24:5-67
+22-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\federico\.gradle\caches\transforms-3\333e425c0a3bf8ae6a06fa7ee9bcf42d\transformed\play-services-maps-18.1.0\AndroidManifest.xml:24:22-64
+23
+24    <uses-feature
+24-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\federico\.gradle\caches\transforms-3\333e425c0a3bf8ae6a06fa7ee9bcf42d\transformed\play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+25        android:glEsVersion="0x00020000"
+25-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\federico\.gradle\caches\transforms-3\333e425c0a3bf8ae6a06fa7ee9bcf42d\transformed\play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+26        android:required="true" />
+26-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\federico\.gradle\caches\transforms-3\333e425c0a3bf8ae6a06fa7ee9bcf42d\transformed\play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+27
+28    <queries>
+28-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\federico\.gradle\caches\transforms-3\333e425c0a3bf8ae6a06fa7ee9bcf42d\transformed\play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
+29
+30        <!-- Needs to be explicitly declared on Android R+ -->
+31        <package android:name="com.google.android.apps.maps" />
+31-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\federico\.gradle\caches\transforms-3\333e425c0a3bf8ae6a06fa7ee9bcf42d\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+31-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\federico\.gradle\caches\transforms-3\333e425c0a3bf8ae6a06fa7ee9bcf42d\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+32    </queries>
+33
+34    <permission
+34-->[androidx.core:core:1.9.0] C:\Users\federico\.gradle\caches\transforms-3\1019612bf39aa42563ef5fd8ea2122b1\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+35        android:name="com.example.entrega_int2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+35-->[androidx.core:core:1.9.0] C:\Users\federico\.gradle\caches\transforms-3\1019612bf39aa42563ef5fd8ea2122b1\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+36        android:protectionLevel="signature" />
+36-->[androidx.core:core:1.9.0] C:\Users\federico\.gradle\caches\transforms-3\1019612bf39aa42563ef5fd8ea2122b1\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+37
+38    <uses-permission android:name="com.example.entrega_int2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+38-->[androidx.core:core:1.9.0] C:\Users\federico\.gradle\caches\transforms-3\1019612bf39aa42563ef5fd8ea2122b1\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+38-->[androidx.core:core:1.9.0] C:\Users\federico\.gradle\caches\transforms-3\1019612bf39aa42563ef5fd8ea2122b1\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+39
+40    <application
+40-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:14:5-67:19
+41        android:allowBackup="true"
+41-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:15:9-35
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.9.0] C:\Users\federico\.gradle\caches\transforms-3\1019612bf39aa42563ef5fd8ea2122b1\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+43        android:dataExtractionRules="@xml/data_extraction_rules"
+43-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:16:9-65
+44        android:debuggable="true"
+45        android:extractNativeLibs="false"
+46        android:fullBackupContent="@xml/backup_rules"
+46-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:17:9-54
+47        android:icon="@mipmap/ic_launcher"
+47-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:18:9-43
+48        android:label="@string/app_name"
+48-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:19:9-41
+49        android:roundIcon="@mipmap/ic_launcher_round"
+49-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:20:9-54
+50        android:supportsRtl="true"
+50-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:21:9-35
+51        android:testOnly="true"
+52        android:theme="@style/Theme.Entregaint2" >
+52-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:22:9-49
+53        <activity
+53-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:24:9-26:40
+54            android:name="com.example.entrega_int2.audio"
+54-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:25:13-34
+55            android:exported="false" />
+55-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:26:13-37
+56        <!--
+57             TODO: Before you run your application, you need a Google Maps API key.
+58
+59             To get one, follow the directions here:
+60
+61                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+62
+63             Once you have your API key (it starts with "AIza"), define a new property in your
+64             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+65             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+66        -->
+67        <meta-data
+67-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:38:9-40:55
+68            android:name="com.google.android.geo.API_KEY"
+68-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:39:13-58
+69            android:value="@string/google_maps_key" />
+69-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:40:13-52
+70
+71        <activity
+71-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:42:9-45:59
+72            android:name="com.example.entrega_int2.MapsActivity"
+72-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:43:13-41
+73            android:exported="false"
+73-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:44:13-37
+74            android:label="@string/title_activity_maps" />
+74-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:45:13-56
+75        <activity
+75-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:46:9-48:40
+76            android:name="com.example.entrega_int2.activity_fron_camera"
+76-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:47:13-49
+77            android:exported="false" />
+77-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:48:13-37
+78        <activity
+78-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:49:9-51:40
+79            android:name="com.example.entrega_int2.activity_cameras"
+79-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:50:13-45
+80            android:exported="false" />
+80-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:51:13-37
+81        <activity
+81-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:52:9-54:40
+82            android:name="com.example.entrega_int2.activity_back_camera"
+82-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:53:13-49
+83            android:exported="false" />
+83-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:54:13-37
+84        <activity
+84-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:55:9-57:40
+85            android:name="com.example.entrega_int2.flash"
+85-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:56:13-34
+86            android:exported="false" />
+86-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:57:13-37
+87        <activity
+87-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:58:9-66:20
+88            android:name="com.example.entrega_int2.MainActivity"
+88-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:59:13-41
+89            android:exported="true" >
+89-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:60:13-36
+90            <intent-filter>
+90-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:61:13-65:29
+91                <action android:name="android.intent.action.MAIN" />
+91-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:62:17-69
+91-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:62:25-66
+92
+93                <category android:name="android.intent.category.LAUNCHER" />
+93-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:64:17-77
+93-->D:\Segundo-cuatrimestre\Aplicaciones-moviles\proyecto-git\LOAM\Proyecto-Fede\app\src\main\AndroidManifest.xml:64:27-74
+94            </intent-filter>
+95        </activity>
+96        <!-- Needs to be explicitly declared on P+ -->
+97        <uses-library
+97-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\federico\.gradle\caches\transforms-3\333e425c0a3bf8ae6a06fa7ee9bcf42d\transformed\play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+98            android:name="org.apache.http.legacy"
+98-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\federico\.gradle\caches\transforms-3\333e425c0a3bf8ae6a06fa7ee9bcf42d\transformed\play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+99            android:required="false" />
+99-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\federico\.gradle\caches\transforms-3\333e425c0a3bf8ae6a06fa7ee9bcf42d\transformed\play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+100
+101        <activity
+101-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\federico\.gradle\caches\transforms-3\bb07efbc1ddc2b8d72621aef336ec4e3\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+102            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+102-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\federico\.gradle\caches\transforms-3\bb07efbc1ddc2b8d72621aef336ec4e3\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+103            android:exported="false"
+103-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\federico\.gradle\caches\transforms-3\bb07efbc1ddc2b8d72621aef336ec4e3\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+104            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+104-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\federico\.gradle\caches\transforms-3\bb07efbc1ddc2b8d72621aef336ec4e3\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+105
+106        <meta-data
+106-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\federico\.gradle\caches\transforms-3\fd7d6733a9973b9bca19f8973c6c3c1b\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+107            android:name="com.google.android.gms.version"
+107-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\federico\.gradle\caches\transforms-3\fd7d6733a9973b9bca19f8973c6c3c1b\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+108            android:value="@integer/google_play_services_version" />
+108-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\federico\.gradle\caches\transforms-3\fd7d6733a9973b9bca19f8973c6c3c1b\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+109
+110        <provider
+110-->[androidx.emoji2:emoji2:1.2.0] C:\Users\federico\.gradle\caches\transforms-3\50a0b87d723545b845605672b0bf80c0\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+111            android:name="androidx.startup.InitializationProvider"
+111-->[androidx.emoji2:emoji2:1.2.0] C:\Users\federico\.gradle\caches\transforms-3\50a0b87d723545b845605672b0bf80c0\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+112            android:authorities="com.example.entrega_int2.androidx-startup"
+112-->[androidx.emoji2:emoji2:1.2.0] C:\Users\federico\.gradle\caches\transforms-3\50a0b87d723545b845605672b0bf80c0\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+113            android:exported="false" >
+113-->[androidx.emoji2:emoji2:1.2.0] C:\Users\federico\.gradle\caches\transforms-3\50a0b87d723545b845605672b0bf80c0\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+114            <meta-data
+114-->[androidx.emoji2:emoji2:1.2.0] C:\Users\federico\.gradle\caches\transforms-3\50a0b87d723545b845605672b0bf80c0\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+115                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+115-->[androidx.emoji2:emoji2:1.2.0] C:\Users\federico\.gradle\caches\transforms-3\50a0b87d723545b845605672b0bf80c0\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+116                android:value="androidx.startup" />
+116-->[androidx.emoji2:emoji2:1.2.0] C:\Users\federico\.gradle\caches\transforms-3\50a0b87d723545b845605672b0bf80c0\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+117            <meta-data
+117-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\federico\.gradle\caches\transforms-3\76535fc7024d326b4cebb319f87a53b3\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+118                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+118-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\federico\.gradle\caches\transforms-3\76535fc7024d326b4cebb319f87a53b3\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+119                android:value="androidx.startup" />
+119-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\federico\.gradle\caches\transforms-3\76535fc7024d326b4cebb319f87a53b3\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+120        </provider>
+121    </application>
+122
+123</manifest>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="green">#00FF00</color>
+    <color name="red">#FF0000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">entrega-int2</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDK4syxy7NGquqrsZ5vezuxDzEM1aiwPQQ</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <style name="Base.Theme.Entregaint2" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Entregaint2" parent="Base.Theme.Entregaint2"/>
+</resources>

@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.example.entrega_int2.app-mergeDebugResources-30:/layout/activity_main.xml",
+        "source": "com.example.entrega_int2.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.entrega_int2.app-mergeDebugResources-30:/layout/activity_fron_camera.xml",
+        "source": "com.example.entrega_int2.app-main-33:/layout/activity_fron_camera.xml"
+    },
+    {
+        "merged": "com.example.entrega_int2.app-mergeDebugResources-30:/layout/activity_maps.xml",
+        "source": "com.example.entrega_int2.app-main-33:/layout/activity_maps.xml"
+    },
+    {
+        "merged": "com.example.entrega_int2.app-mergeDebugResources-30:/layout/activity_cameras.xml",
+        "source": "com.example.entrega_int2.app-main-33:/layout/activity_cameras.xml"
+    },
+    {
+        "merged": "com.example.entrega_int2.app-mergeDebugResources-30:/layout/activity_flash.xml",
+        "source": "com.example.entrega_int2.app-main-33:/layout/activity_flash.xml"
+    },
+    {
+        "merged": "com.example.entrega_int2.app-mergeDebugResources-30:/layout/activity_audio.xml",
+        "source": "com.example.entrega_int2.app-main-33:/layout/activity_audio.xml"
+    },
+    {
+        "merged": "com.example.entrega_int2.app-mergeDebugResources-30:/layout/activity_back_camera.xml",
+        "source": "com.example.entrega_int2.app-main-33:/layout/activity_back_camera.xml"
+    }
+]
