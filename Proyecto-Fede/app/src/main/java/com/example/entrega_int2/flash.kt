@@ -45,11 +45,13 @@ class flash : AppCompatActivity() {
             flashActive = !flashActive
 
             if(flashActive){
-                btnFlash.setBackgroundColor(resources.getColor(R.color.green))
-                textView.text = "Flash encendido"
-            }else{
                 btnFlash.setBackgroundColor(resources.getColor(R.color.red))
+                textView.text = "Flash encendido"
+                btnFlash.text = "Desactivar flash"
+            }else{
+                btnFlash.setBackgroundColor(resources.getColor(R.color.green))
                 textView.text = "Flash apagado"
+                btnFlash.text = "Activar flash"
             }
 
         }catch (e: CameraAccessException){
