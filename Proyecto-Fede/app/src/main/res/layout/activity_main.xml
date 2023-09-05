@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="185dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="154dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="154dp"
+        android:text="Pagina principal "
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnFlash"
+        android:layout_width="406dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="159dp"
+        android:layout_marginBottom="60dp"
+        android:text="Pantalla para Flash"
+        app:layout_constraintBottom_toTopOf="@+id/btnCamara"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.526"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <Button
+        android:id="@+id/btnCamara"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="266dp"
+        android:layout_marginBottom="64dp"
+        android:text="Pantalla para Camara"
+        app:layout_constraintBottom_toTopOf="@+id/btnGPS"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <Button
+        android:id="@+id/btnAudio"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="483dp"
+        android:text="Pantalla para audio"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <Button
+        android:id="@+id/btnGPS"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="383dp"
+        android:layout_marginBottom="52dp"
+        android:text="Pantalla para GPS"
+        app:layout_constraintBottom_toTopOf="@+id/btnAudio"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:layout_editor_absoluteX="1dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
